@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : ic_tab_forcast.xml
+    Created on : den 16 juni 2010, 22:37
+    Author     : jens
+    Description:
+        Purpose of the document follows.
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_tab_forcast_grey"
+          android:state_selected="true" />
+    <!-- When not selected, use white-->
+    <item android:drawable="@drawable/ic_tab_forcast_white" />
+</selector>

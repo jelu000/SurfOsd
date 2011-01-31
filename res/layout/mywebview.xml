@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : mywebview.xml
+    Created on : den 13 juni 2010, 22:48
+    Author     : jens
+    Description:
+        Purpose of the document follows.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical" >
+    <WebView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/webview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+            />
+</LinearLayout>
