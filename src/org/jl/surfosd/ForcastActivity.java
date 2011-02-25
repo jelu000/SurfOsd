@@ -37,8 +37,8 @@ public class ForcastActivity extends Activity implements OnLongClickListener, On
 
         mWebView = (WebView) findViewById(R.id.webview);
         mWebView.getSettings().setJavaScriptEnabled(true);
-        
-        mWebView.loadUrl("http://www.smhi.se/vadret/vadret-i-sverige/land/hourByHourTable.do?geonameid=2685750&starttime=" + t + "%2000:00:00&endtime=" + tlater + "%2000:00:00&redirect=false");//http://rl.se/vadret/grafik24c.php?stn=ESNZ
+        //"http://www.smhi.se/vadret/vadret-i-sverige/land/hourByHourTable.do?geonameid=2685750&starttime=" + t + "%2000:00:00&endtime=" + tlater + "%2000:00:00&redirect=false"
+        mWebView.loadUrl("http://salongnobless.se/yr/index.php");//http://rl.se/vadret/grafik24c.php?stn=ESNZ
         mWebView.setOnFocusChangeListener(this);
         mWebView.setWebViewClient(new SurfOsdWebViewClient());
 
