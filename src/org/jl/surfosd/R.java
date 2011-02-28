@@ -22,8 +22,11 @@ public final class R {
         public static final int ic_tab_wind=0x7f020008;
         public static final int ic_tab_wind_grey=0x7f020009;
         public static final int ic_tab_wind_white=0x7f02000a;
-        public static final int icon=0x7f02000b;
-        public static final int osdtabs=0x7f02000c;
+        public static final int ic_tab_write=0x7f02000b;
+        public static final int ic_tab_write_grey=0x7f02000c;
+        public static final int ic_tab_write_white=0x7f02000d;
+        public static final int icon=0x7f02000e;
+        public static final int osdtabs=0x7f02000f;
     }
     public static final class id {
         public static final int webview=0x7f050000;

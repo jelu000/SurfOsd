@@ -56,6 +56,12 @@ public class SurfOSD extends TabActivity implements OnClickListener, OnTabChange
         tabHost.addTab(spec);
 
 
+        intent = new Intent().setClass(this, WriteForumActivity.class);
+        spec = tabHost.newTabSpec("skriv").setIndicator("Skriv",
+                res.getDrawable(R.drawable.ic_tab_write)).setContent(intent);
+        tabHost.addTab(spec);
+
+
 
         intent = new Intent().setClass(this, ForcastActivity.class);
         spec = tabHost.newTabSpec("prognos").setIndicator("Prognos",
