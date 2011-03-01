@@ -7,7 +7,7 @@ package org.jl.surfosd;
 
 import android.app.Activity;
 import android.os.Bundle;
-
+//import android.
 /**
  *
  * @author jens
@@ -18,7 +18,10 @@ public class WriteForumActivity extends Activity {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
-        // ToDo add your GUI initialization code here        
+        // ToDo add your GUI initialization code here
+
+        setContentView(R.layout.mywriteform);
+
     }
 
 }
