@@ -29,6 +29,7 @@ public final class R {
         public static final int osdtabs=0x7f02000f;
     }
     public static final class id {
+        public static final int cancel=0x7f050006;
         public static final int edit_mess=0x7f050004;
         public static final int edit_name=0x7f050002;
         public static final int labelmess=0x7f050003;
