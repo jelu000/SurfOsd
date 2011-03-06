@@ -4,7 +4,6 @@
  */
 package org.jl.surfosd;
 
-import android.app.Activity;
 import android.app.*;
 import android.os.Bundle;
 import android.widget.*;
@@ -19,7 +18,7 @@ import android.widget.TabHost.OnTabChangeListener;
 
 /**
  *
- * @author jens
+ * @author jens lundeqvist
  */
 public class SurfOSD extends TabActivity implements OnClickListener, OnTabChangeListener {
 
@@ -74,24 +73,6 @@ public class SurfOSD extends TabActivity implements OnClickListener, OnTabChange
 
         tabHost.setOnClickListener(this);
 
-        // tabHost.setOnClickListener(new OnClickListener() {
-
-        //public void onClick(View v) {
-        //  System.out.println("CLICK JENSSSSSSSSSSSSSS");
-        // Perform action on clicks, depending on whether it's now checked
-        //if (((CheckBox) v).isChecked()) {
-        //Toast.makeText(HelloFormStuff.this, "Selected", Toast.LENGTH_SHORT).show();
-        //} else {
-        //Toast.makeText(HelloFormStuff.this, "Not selected", Toast.LENGTH_SHORT).show();
-        //}
-        //((WebView) v).reload();
-        // Activity t_a = intent.getClass();
-        //}
-//});
-
-
-        //tabHost.setOnTabChangedListener(this);
-
 
     }
 
@@ -110,19 +91,11 @@ public class SurfOSD extends TabActivity implements OnClickListener, OnTabChange
     public void onTabChanged(String arg0) {
         //Log.i("******SAHARA CLICK TAB NUMBER", "------" + TabHost.getCurrentTab());
         //Button myButton = (Button) findViewById(R.id.my_button);
-//WebView mWebView = (WebView) findViewById(R.id.webview);
-//mWebView.reload();
-        //WebView t_view =(WebView) tabHost.getCurrentView();
-        //t_view.reload();
 
-//OBS dettafunkar men används ej, har kommenterat bort lysnaren i konstruktor
+        //OBS dettafunkar men används ej, har kommenterat bort lysnaren i konstruktor
         View t_view = tabHost.getCurrentView();
         WebView mWebView = (WebView) t_view.findViewById(R.id.webview);
         mWebView.reload();
 
-
-        /* Toast.makeText(getBaseContext(),
-        "var= " + t_view.getContext().toString(),
-        Toast.LENGTH_LONG).show();*/
     }
 }

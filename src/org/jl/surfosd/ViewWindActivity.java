@@ -30,7 +30,7 @@ public class ViewWindActivity extends Activity implements OnFocusChangeListener,
         //WebView mWebView = (WebView) findViewById(R.id.webview);
         mWebView = (WebView) findViewById(R.id.webview);
         mWebView.getSettings().setJavaScriptEnabled(true);
-        mWebView.loadUrl("http://salongnobless.se/vader/");//http://surfosd.se/392-17-83.html
+        mWebView.loadUrl("http://salongnobless.se/SurfOsdVaderAndroidApp/index.php");//http://surfosd.se/392-17-83.html
         //setContentView(mWebView);
         mWebView.setOnLongClickListener(this);
 
@@ -59,7 +59,7 @@ public class ViewWindActivity extends Activity implements OnFocusChangeListener,
     public void onFocusChange(View v, boolean b) {
 
         
-        mWebView.loadUrl("http://salongnobless.se/vader/");
+        mWebView.loadUrl("http://salongnobless.se/SurfOsdVaderAndroidApp/index.php");
         if (b){// (mWebView.isShown()){
             //Toast.makeText(getBaseContext(),"Hello, Wind!",Toast.LENGTH_LONG).show();
             mWebView.reload();
